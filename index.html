@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-dark"><i class="fa fa-book me-3"></i>SkillSphere</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="course.html" class="nav-item nav-link">Courses</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu  m-0">
+                        <a href="team.html" class="dropdown-item">Our Team</a>
+                        
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="login.html" class="btn btn-dark py-4 px-lg-5 d-none d-lg-block">Join Now<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner position-relative">
+            <div class="carousel-item position-relative active">
+                <img class="d-block" src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" height="600px" width="100%">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class="text-primary text-uppercase mb-3 ">Best Online Courses</h5>
+                                <h1 class="display-3 text-white ">The Best Online Learning Platform</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Discover unparalleled knowledge and skills with the best online learning platform designed for your success.</p>
+                                <a href="about.html" class="btn btn-primary py-md-3 px-md-5 me-3 ">Read More</a>
+                                <a href="login.html" class="btn btn-light py-md-3 px-md-5 ">Join Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item position-relative">
+                <img class="d-block" src="https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" height="600px" width="100%">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class="text-primary text-uppercase mb-3 ">Best Online Courses</h5>
+                                <h1 class="display-3 text-white ">Get Educated Online From Your Home</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Unlock limitless learning opportunities from the comfort of your own home with online education.</p>
+                                <a href="about.html" class="btn btn-primary py-md-3 px-md-5 me-3 ">Read More</a>
+                                <a href="login.html" class="btn btn-light py-md-3 px-md-5 ">Join Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" ></span>
+            
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            
+          </button>          
+    </div>
+    
+    <div class="container-container-fluid">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 ">
+                    <div class=" text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                            <h5 class="mb-3">Skilled Instructors</h5>
+                            <p>They create a supportive and inclusive learning environment while continuously improving their teaching methods</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 ">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-globe text-primary mb-4"></i>
+                            <h5 class="mb-3">Online Classes</h5>
+                            <p>They utilize digital platforms to deliver course materials, conduct live or recorded lectures, and facilitate interactions through discussion boards and virtual meetings.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 ">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-home text-primary mb-4"></i>
+                            <h5 class="mb-3">Home Projects</h5>
+                            <p>A home project is an opportunity to transform your living space, turning ideas into reality and making your home truly yours.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 ">
+                    <div class=" text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-book-open text-primary mb-4"></i>
+                            <h5 class="mb-3">Book Library</h5>
+                            <p>A book library website is a digital haven where endless stories and knowledge are just a click away.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 ">
+                    <div class="position-relative h-100">
+                        <img class=" position-absolute w-100 h-100" src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c3R1ZHl8ZW58MHx8MHx8fDA%3D" alt="" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 ">
+                    <h6 class=" bg-white text-start text-primary pe-3">About Us</h6>
+                    <h1 class="mb-4">Welcome to SkillSphere</h1>
+                    <p class="mb-4">Welcome to SkillSphere, your gateway to limitless learning! Dive into a world of interactive courses and enrich your skills anytime, anywhere.</p>
+                    <p class="mb-4">Explore our diverse range of topics and start your journey towards personal and professional growth today!</p>
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-dark me-2"></i>Skilled Instructors</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-dark me-2"></i>Online Classes</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-dark me-2"></i>International Certificate</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-dark me-2"></i>Skilled Instructors</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-dark me-2"></i>Online Classes</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-dark me-2"></i>International Certificate</p>
+                        </div>
+                    </div>
+                    <a class="btn btn-dark py-3 px-5 mt-2" href="about.html">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-xxl py-5 ">
+        <div class="container">
+            <div class="text-center">
+                <h6 class=" bg-white text-center text-primary px-3">Categories</h6>
+                <h1 class="mb-5">Courses Categories</h1>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-7 col-md-6">
+                    <div class="row g-3">
+                        <div class="col-lg-12 col-md-12 ">
+                            <a class="position-relative d-block " href="">
+                                <img class="img-fluid w-100" src="https://media.istockphoto.com/id/1628291798/photo/artificial-intelligence-and-machine-learning-concept.webp?b=1&s=170667a&w=0&k=20&c=9ZqWrvGtOrpq5mOtEIAM7U9vk_Xl8opTJMMj4DJdU2o=" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">AIML</h5>
+                                    
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 ">
+                            <a class="position-relative d-block " href="">
+                                <img class="img-fluid" src="https://th.bing.com/th/id/OIP.c5TMgljZ5EODDlN_0HoioQHaFj?rs=1&pid=ImgDetMain" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Python</h5>
+                                    
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 ">
+                            <a class="position-relative d-block " href="">
+                                <img class="img-fluid" src="https://www.finoit.com/wp-content/uploads/2022/09/clean-code-java-principles.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Java</h5>
+                                    
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 ">
+                    <a class="position-relative d-block h-100" href="">
+                        <img class="position-absolute w-100 h-100" src="https://www.flexsin.com/blog/wp-content/uploads/2016/10/UIUX-web-design.jpg" alt="" style="object-fit: cover;">
+                        <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin:  1px;">
+                            <h5 class="m-0">Web Design</h5>
+                            
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center ">
+                <h6 class=" bg-white text-center text-primary px-3">Courses</h6>
+                <h1 class="mb-5">Popular Courses</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="https://media.istockphoto.com/id/844419966/photo/mobile-responsive-website-development-wireframe-design-preview-on-smartphone-screen.webp?b=1&s=170667a&w=0&k=20&c=68PeD7BaGNKh1WFQ9nHydJNO4JkD95tN9bQL9ElksAg=" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="login.html" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
+                            </div>
+                        </div>
+                         <div class="text-center p-4 pb-0">
+                            
+                            <h5 class="mb-4">Web Design &amp; Development Course for Beginners</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class=" flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>Zoe James</small>
+                            <small class=" flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.30 Hrs</small>
+                            <small class=" flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 ">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="https://media.istockphoto.com/id/1202870693/photo/future-artificial-intelligence-robot-and-cyborg.webp?b=1&s=170667a&w=0&k=20&c=dfMaQvIOyLk9p2xMVt2IsWo543JcohgnFz9IDllRP9c=" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="login.html" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
+                            </div>
+                        </div>
+                         <div class="text-center p-4 pb-0">
+                            
+                            <h5 class="mb-4">Artificial Intelligence &amp; Machine Learning for Beginners</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class=" flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>Rafael Graham</small>
+                            <small class=" flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>2.30 Hrs</small>
+                            <small class=" flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 ">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="https://th.bing.com/th/id/OIP.QzfQidKvrU9txucLMCKIowHaEw?rs=1&pid=ImgDetMains" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="login.html" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            
+                            <h5 class="mb-4">Andriod Development Course for Beginners</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class=" flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>Anil Giri</small>
+                            <small class=" flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>2.00 Hrs</small>
+                            <small class=" flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center ">
+                <h6 class=" bg-white text-center text-primary px-3">Instructors</h6>
+                <h1 class="mb-5">Instructors</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="https://themewagon.github.io/elearning/img/team-3.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Rafael Graham</h5>
+                            <small>Professor</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="https://themewagon.github.io/elearning/img/team-4.jpg" alt="" >
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Zoe James</h5>
+                            <small>Professor</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="https://themewagon.github.io/elearning/img/team-1.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Michael Stern</h5>
+                            <small>Professor</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="https://th.bing.com/th/id/OIP.l4s4VD5qVoJ4afyKsvYB7AHaJb?w=195&h=249&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Adele Kliene</h5>
+                            <small>Professor</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="photo" style="background-color: rgb(23, 23, 52);">
+        <div class="container-fluid text-light footer pt-5 mt-5 ">
+            <div class="container py-4">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-white mb-3">Quick Link</h4>
+                        <a class="btn btn-link" href="about.html">About Us</a>
+                        <a class="btn btn-link" href="contact.html">Contact Us</a>
+                        <a class="btn btn-link" href="">Privacy Policy</a>
+                        <a class="btn btn-link" href="">Terms & Condition</a>
+                        <a class="btn btn-link" href="">FAQs & Help</a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-white mb-3">Contact</h4>
+                        <p class="mb-2"><img src="https://www.iconpacks.net/icons/2/free-location-icon-2955-thumb.png" alt="" height="25px" width="30px">123 Street, New York, USA</p>
+                        <p class="mb-2"><img src="https://www.freeiconspng.com/uploads/phone-png-3.png" alt="" height="25px" width="30px"> +012 345 67890</p>
+                        <p class="mb-2"><img src="https://static.vecteezy.com/system/resources/previews/010/151/138/non_2x/email-and-mail-icon-sign-symbol-design-free-png.png" alt="" height="25px" width="30px"> info@example.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><img src="https://i.pinimg.com/originals/0f/2d/50/0f2d5007648a463cc8a5224367eadbcd.png" alt="" height="20px" width="20px"></a>
+                            <a class="btn btn-outline-light btn-social" href=""><img src="https://freepnglogo.com/images/all_img/1713419302Black_Facebook_PNG.png" alt="" height="20px" width="20px"></a>
+                            <a class="btn btn-outline-light btn-social" href=""><img src="https://www.citypng.com/public/uploads/preview/hd-white-youtube-yt-logo-symbol-icon-png-704081694687174hznqiiqmti.png" alt="" height="20px" width="20px"></a>
+                            <a class="btn btn-outline-light btn-social" href=""><img src="https://thumbs.dreamstime.com/b/linkedin-vector-islolated-icon-social-media-logo-symbol-123155431.jpg" alt="" height="20px" width="20px"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-white mb-3">Gallery</h4>
+                        <div class="row g-2 pt-2">
+                            <div class="col-4">
+                                <img class="img-fluid bg-light p-1"
+                                    src="https://images.unsplash.com/photo-1610500796385-3ffc1ae2f046?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHxzdHVkeXxlbnwwfHwwfHx8MA%3D%3D"
+                                    alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid bg-light p-1"
+                                    src="https://plus.unsplash.com/premium_photo-1692905081116-a700299b3bd2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYxfHxzdHVkeXxlbnwwfHwwfHx8MA%3D%3D"
+                                    alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid bg-light p-1"
+                                    src="https://images.unsplash.com/photo-1610484826625-ac2be7f1c8c1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODh8fHN0dWR5fGVufDB8fDB8fHww"
+                                    alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid bg-light p-1"
+                                    src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHN0dWR5fGVufDB8fDB8fHww"
+                                    alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid bg-light p-1"
+                                    src="https://images.unsplash.com/photo-1584697964328-b1e7f63dca95?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fHN0dWR5fGVufDB8fDB8fHww"
+                                    alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid bg-light p-1"
+                                    src="https://images.unsplash.com/photo-1585314294023-215a865ddee1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fHN0dWR5fGVufDB8fDB8fHww"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-white mb-3">Newsletter</h4>
+                        <p>For Upcoming courses enroll now.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text"
+                                placeholder="Your email">
+                            <button type="button"
+                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"><a href="login.html">SignUp</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

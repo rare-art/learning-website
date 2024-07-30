@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body{
+    background-image: url(https://reporter.rit.edu:8443/sites/pubDir/slideShow/08-16/212-1474-47783801.jpg);
+    color: rgb(20 255 0);
+    background-repeat: no-repeat;
+    background-image: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    
+}
+.register{
+    background-color: rgba(0, 0, 0, 0.532);
+    padding: 15px;
+border-radius: 5px;
+margin-top: 30px;
+}
+.table{
+    background-color: rgba(0, 0, 0, 0.51);
+    font-size: 25px;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#submit{
+    background-color: red;
+    border-radius: 10px ;
+   cursor: pointer;
+    width: 74px;
+    height: 39px;
+    color: aliceblue;
+}
+.input{
+    position: relative;
+    border-radius: 10px;
+    color: black;
+    
+}
+button{
+    border-radius: 10px ;
+   cursor: pointer;
+    width: 74px;
+    height: 39px;
+    color: aliceblue;
+    background-color: rgb(8, 6, 110);
+    margin: 12px 0px;
+
+}
+button:hover{
+   color: white;
+   background-color: rgb(81, 24, 224);
+}
+#reset{
+    background-color: rgb(55, 0, 255);
+    border-radius: 10px ;
+   cursor: pointer;
+    width: 74px;
+    height: 39px;
+    color: aliceblue;
+}
+h4{
+    padding: 15px;
+    text-align: center;
+}
+label{
+    padding: 10px;
+    display: inline-block;
+    width: 150px;
+}
+
+label{
+    font-size: 18px;
+}
+input{
+    border-radius: 5px;
+border: none;
+background-color: rgb(201 170 225 / 64%);
+height: 5vh;
+color: black;}
+.box1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+.demo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<title>Registration From</title>
+<body>
+    <div class="main">
+        <div class="register">
+           <center> <h2>Register Here</h2></center>
+            <form id="register" method="post">
+                <lable>First Name :</lable>
+                <br>
+                <input type="text" name="fname"
+                id="name" placeholder="Enter your First name">
+                <br><br>
+                <lable>Last Name : </lable>
+                <br>
+                <input type="text" name="lname"
+                id="name" placeholder="Enter Your Last Name">
+                <br><br>
+                <lable>Father's Name :</lable>
+                <br>
+                <input type="text" name="faname"
+                id="name" placeholder="Enter your Father's name">
+                <br><br>
+                <label>Your Age : </label>
+                <br>
+                <input type="number" name="age"
+                id="name" placeholder="how old are You?">
+                <br><br>
+                <label>Email : </label>
+                <br>
+                <input type="email :" name="email"
+
+                id="name" placeholder="Enter Your Valid Email">
+                <br><br>
+                <label>Contact Number : </label>
+                <br>
+                <input type="number" name="Contact"
+                id="name" placeholder="Enter Number">
+                <br><br>
+                <lable>Gender : </lable>
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" name="gender"
+                id="male">
+                &nbsp;
+                <span id="male">Male</span>
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" name="gender"
+                id="Female">
+                &nbsp;
+                <span id="female">Female</span>
+                <br><br>
+                <label>Known language : </label>
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="checkbox" name="lang"
+                id="hindi">
+                &nbsp;
+                <span id="hindi">Hindi</span>
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="checkbox" name="lang"
+                id="eng">
+                &nbsp;
+                <span id="eng">English</span>
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="checkbox" name="lang"
+                id="odia">
+                &nbsp;
+                <span id="odia">Odia</span>
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="checkbox" name="lang"
+                id="bengali">
+                &nbsp;
+                <span id="bengali">Bengali</span>
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="checkbox" name="lang"
+                id="urdu">
+                &nbsp;
+                <span id="urdu">Urdu</span>
+                <br><br>
+                <label>Subject : </label>
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="checkbox" name="sub"
+                id="Math">
+                &nbsp;
+                <span id="Math">Python</span>
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="checkbox" name="sub"
+                id="eng1">
+                &nbsp;
+                <span id="eng1">AIML</span>
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="checkbox" name="sub"
+                id="Science">
+                &nbsp;
+                <span id="Science">Web Development</span>
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="checkbox" name="sub"
+                id="Sanskit">
+                &nbsp;
+                <span id="Sanskit">Machine Learning</span>
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <br>
+                <br>
+               <div class="demo"> 
+                <button type="submit" id="submit"><a href="index.html" style="text-decoration: none;">Submit</a></button>
+                <button type="reset" id="reset">Reset</button>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
